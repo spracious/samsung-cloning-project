@@ -1,0 +1,689 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    display: block;
+    height: 120px;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.menu
+{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    width: 100%;
+}
+.menu a{
+    padding-left: 30px;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    height: 40px;
+}
+
+.submenu
+{
+    display: flex;
+    height: 20px;
+    background-color: white;
+    width: 100%;
+   
+}
+.submenu a{
+    padding-left: 30px;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-leftleft{
+    display:block;
+    float: left;
+    background-color: white;
+    width: 10%;
+    justify-content: space-between;
+    ;
+  
+}
+
+.menu-left{
+    display:block;
+    float: left;
+    background-color: white;
+    width: 60%;
+    justify-content: space-between;
+    padding-top: 40px;
+  
+}
+
+.menu-right{
+    display:block;
+    float: right;
+    background-color: white;
+    width: 20%;
+    padding-top: 40px;
+}
+
+.menu-rightright{
+    display:block;
+    float: right;
+    background-color: white;
+    width: 10%;
+    padding-top: 30px;
+    justify-content: space-between;
+  
+}
+
+.sub-menu-left{
+    display:block;
+    float: left;
+    background-color: white;
+    width: 30%;
+    justify-content: space-between;
+    padding-left: 25px;
+  
+}
+
+.sub-menu-right{
+    display:block;
+    float: right;
+    background-color: white;
+    width: 70%;
+    text-align: right;
+    padding-right: 100px;
+   
+}
+
+.banner{
+    background-image: url('img/hero.jpg');
+    background-size: 100% 100%;
+    height: 700px;
+    padding-top: 0%;
+}
+.banner .banner-text{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner .banner-text a{
+    color: black;
+    text-decoration: none;
+    background-color:white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.banner-note{
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    font-size: x-large;
+    margin: 0% 30% 0% 30%;
+}
+
+.pix-menu
+{
+    display:block;
+    float: right;
+    background-color:white;
+    width: 100%;
+    text-align: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+ 
+.pix-col
+{
+    display:block;
+    float: left;
+    background-color: aliceblue;
+    width: 8.33%;
+    text-align: left;
+    justify-content: space-between;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.section-one-header{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+
+ }
+ 
+.section-one{
+    align-items: center;
+    width: 100%;
+    
+}
+
+.sec-one-links{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+}
+
+.sec-one-pic{
+    height: 500px;
+    padding-top: 0%;
+    display: flex;
+    align-items: center;
+    background-image: url(img/Home_Galaxy-S21.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+}
+
+.cap{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-text-black{
+    
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.banner-text-black a{
+    color: white;
+    text-decoration: none;
+    background-color:black;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.section-image{
+    background-image: url(img/TV_HOME.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+.section-head{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.section-heads{
+    padding-top: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+}
+
+.section-one-header-one{
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-head-one{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+    .section-heads-one{
+        padding-top: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: xx-large;
+        color: white;
+    }
+
+.section-links{
+    color: white;
+    text-align: center;
+    width: auto;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.sections-links{
+    color: black;
+    text-align: center;
+    width: auto;
+    font-size: x-large;
+    padding-top: 10px;
+}
+.section-links a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    padding-top: 2rem;
+    font-size: larger;
+}
+.sec-capture{
+    text-align: center;
+    width: auto;
+    color:white;
+    margin-top: 490px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+.sec-capture-one{
+    text-align: center;
+    width: auto;
+    color: ;
+    margin-top: 490px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+.line-link{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; 
+    padding-left: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.underline{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.choose{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.section-image-two{
+    background-image: url(img/home_appliances.png);
+    background-size: 100% 100%;
+    height: 800px;
+    align-items: center;
+    margin-top: 80px;
+}
+.sub-capture{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.sub-link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    width: auto;
+}
+.sec-align{
+    padding-top: 15px;
+    text-align: center;
+}
+.sec-four{
+    padding: 120px;
+}
+.sec-four h1{
+    text-align: center;
+}
+
+.monthpicks
+{
+    height: 1500px;
+    width: 100%;
+    padding-top: 0%; 
+}
+
+.monthpick-first-col
+{
+display: block;
+float: left;
+width: 45%;
+background-image: url(img/PCD_Galaxy-S21-FE.png);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+height: 30%;
+background-color: whitesmoke;
+padding-left: 5%;
+margin-bottom: 1%;
+border-radius: 5%;
+
+}
+
+.monthpick-second-col
+{
+display: block;
+float: left;
+width: 50%;
+height: 100%;
+background-color: whitesmoke;
+border-radius: 5%;
+}
+
+.monthpick-second-col-right
+{
+display: block;
+float: left;
+width: 50%;
+border-radius: 5%;
+height: 100%;
+background-color: white;
+}
+
+.monthpick-second-col-left
+{
+display: block;
+float: left;
+width: 50%;
+height: 100%;
+background-color: white;
+border-radius: 5%;
+}
+
+.monthpick-second-col-left-top
+{
+display: block;
+float:left;
+width: 100%;
+height: 50%;
+background-color: whitesmoke;
+background-image: url(img/galaxy_z_fold3.png);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+margin-left: 5%;
+border-radius: 5%;
+
+}
+.monthpick-second-col-left-down
+{
+display: block;
+margin-left: 5%;
+float: left;
+margin-top: 5%;
+width: 100%;
+height: 45%;
+background-color: whitesmoke;
+background-image: url(img/galaxy_watch4.png);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+border-radius: 5%;
+}
+
+.monthpick-second-col-right-top
+{
+    display: block;
+    float:left;
+    width: 100%;
+    height: 50%;
+    background-color: whitesmoke;
+    background-image: url(img/galaxy_z_flip3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+.monthpick-second-col-right-down
+{
+    display: block;
+    margin-left: 5%;
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+    height: 45%;
+    background-color: whitesmoke;
+    background-image: url(img/galaxy_buds2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+
+.big-image{
+    margin: 0px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.side-image{
+    margin: 0px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.big-image-one{
+    margin: 0px auto;
+    margin-left: 200px;
+    padding-top: 40px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+.side-image-one{
+    margin: 0px auto;
+    margin-right: 300px;
+    padding-top: 40px;
+    display: inline-block;
+    text-align: justify;
+    align-items: center;
+}
+
+.side-image-one-text{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.col-4{
+    padding-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 200px;
+}
+
+.quickglance
+{
+    height: 700px;
+    padding-top: 0%;   
+}
+
+.quickglance-first-col
+{
+display: block;
+float: left;
+width: 45%;
+background-image: url(img/pfs_quick-glance_fold3_main-image_pc.gif);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+height: 99%;
+background-color: aquamarine;
+padding-left: 5%;
+
+margin-bottom: 1%;
+}
+
+.quickglance-second-col
+{
+display: block;
+float: left;
+width: 50%;
+height: 100%;
+background-color: yellow;
+}
+
+.quickglance-second-col-right
+{
+display: block;
+float: left;
+width: 50%;
+
+height: 100%;
+background-color: white;
+}
+
+.quickglance-second-col-left
+{
+display: block;
+float: left;
+width: 50%;
+height: 100%;
+background-color: white;
+}
+
+.quickglance-second-col-left-top
+{
+display: block;
+float:left;
+width: 100%;
+height: 50%;
+background-color: black;
+background-image: url(img/pfs_quick-glance_fold3.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+margin-left: 5%;
+
+}
+.quickglance-second-col-left-down
+{
+display: block;
+margin-left: 5%;
+float: left;
+margin-top: 5%;
+width: 100%;
+height: 45%;
+background-color: orange;
+background-image: url(img/pfs_quick-glance_fold3_s-pen_pc.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+text-align: center;
+}
+
+.quickglance-second-col-right-top
+{
+    display: block;
+    float:left;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    background-image: url(img/pfs_quick-glance_fold3_multitasking_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin-left: 5%;
+}
+.quickglance-second-col-right-down
+{
+    display: block;
+    margin-left: 5%;
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+    height: 45%;
+    background-color: orange;
+    background-image: url(img/pfs_quick-glance_fold3_immersive-viewing_pc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.fifthrow-col-6{
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+.fifthrow-col-12{
+    background-image: url('img/hero.jpg');
+    background-size: 100% 100%;
+    height: 700px;
+    padding-top: 0%; 
+
+}
+
+.sixth{
+    width: 100%;
+    min-height: 10px;
+    padding: 5%;
+    background-image: grey;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgb(215, 215, 208);
+    display: flex;
+    text-align: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 14px 10px;
+    font-size: 2px;
+    color: black;
+}
+
+::placeholder{
+    color: grey;
+}
+.btn{
+    margin-top: 80px;
+}
+
+.btn a{
+    background-color: #FFBC0D;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+
+
+.row{width: 100%; display: flex; justify-content: space-between;}
+.col-1{width: 8.33%; background-color:whitesmoke ; height: 100px;}
+.col-2{width: 16.6%; background-color: antiquewhite; height: auto;}
+.col-3{width: 25%; background-color: white; height: 100px;}
+.col-4{width: 33.33%; background-color: white; height: auto;}
+.col-5{width: 41.66%; background-color:white; height: 100px;}
+.col-6{width: 50%; background-color: whitesmoke; height:20px;}
+.col-7{width: 58.3%; background-color: white; height: 100px;}
+.col-8{width: 66.64%; background-color: maroon; height: 100px;}
+.col-9{width: 75%; background-color: pink; height: 100px;}
+.col-10{width: 83.33%; background-color:peru ; height: 100px;}
+.col-11{width: 91.66%; background-color: brown; height: 100px;}
+.col-12{width: 100%; height: 100%;}
